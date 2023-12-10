@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented here.
 
+## [Unrealeased]
+
+### Added
+
+- Added `applications` in realms to store per-organisation application credentials (for M2M authentication).
+
+- Added `authenticator/landlord/appcredz` API endpoint to generate new application credentials.
+
+- Added application credentials management to landlord frontend (Settings > Members).
+
+- Changed the cli to generate the key to sign application credentials.
+
+### Changed
+
+- Changed `authenticator/landlord/signin` API endpoint to support both user credentials (email/password) and application credentials (clientId/clientSecret).
+
+### Contributors
+
+- @zeronounours
+
 ## 2023-12-09
 
 ### Changed
